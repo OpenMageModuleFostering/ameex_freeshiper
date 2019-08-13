@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ameex_Freeshiper</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow Free shipping  based upon customer group</summary>
+    <description>This extension allow store owner to provide free shipping based on customer groups</description>
+    <notes>support 1.6.X to 1.9.X</notes>
+    <authors><author><name>commercebees</name><user>CommerceBees</user><email>support@commercebees.com</email></author></authors>
+    <date>2014-06-27</date>
+    <time>08:39:45</time>
+    <contents><target name="magelocal"><dir name="Ameex"><dir name="Freeship"><dir name="Helper"><file name="Data.php" hash="3d0c5d1473bb03ad6b99477d44535dd7"/></dir><dir name="Model"><dir name="Carrier"><file name="Freeshipment.php" hash="93cc4d1954229bdb3983239d82c6ec96"/></dir><dir name="Source"><file name="Customergroupsource.php" hash="753739a45b8cf141959638505cc2c92f"/></dir></dir><dir name="etc"><file name="config.xml" hash="faca3a1726555aef9e9dabfc5111c793"/><file name="system.xml" hash="f013dda998f8a81882fa93ed78df477b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ameex_Freeship.xml" hash="2c7608db4be978ee6b043c3ff8f76c2b"/></dir></target><target name="mage"><dir name="."><file name="CommerceBees_FreeShipping_ByCustomer_Groups_Extension_Guide_V1.0.pdf" hash="c2cb5cb98c6989f5cd6370e49ad30a31"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
