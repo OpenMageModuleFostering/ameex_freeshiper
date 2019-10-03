@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Ameex_Freeshiper",
+    "name": "OpenMageModuleFostering\/Ameex_Freeshiper",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Allow Free shipping  based upon customer group",
     "authors": [
-    {
-        "name": "commercebees",
-        "email": "support@commercebees.com"
-    }
-],
+        {
+            "name": "commercebees",
+            "email": "support@commercebees.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
